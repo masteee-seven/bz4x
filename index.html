@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>bZ4X・bZ4X Touring 試乗会 よくあるご質問</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f6f7;--ink:#10222d;--sub:#51636d;--line:#d3dde2;--card:#fff;--acc:#0a6c8f;--hi:#d8f56a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1a22;--ink:#e6eef2;--sub:#9db0ba;--line:#243843;--card:#13232d;--acc:#5cc3e6;--hi:#b6d94a}}
+:root[data-theme="dark"]{--bg:#0d1a22;--ink:#e6eef2;--sub:#9db0ba;--line:#243843;--card:#13232d;--acc:#5cc3e6;--hi:#b6d94a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.8 "Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header.top{padding:20px 0 0;font-size:13px;color:var(--sub)}
+h1{font-size:clamp(28px,6.4vw,48px);line-height:1.2;font-weight:900;margin:28px 0 8px;letter-spacing:.01em}
+.lead{margin:0 0 28px;color:var(--sub);max-width:34em}
+.range{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 20px 14px;margin-bottom:12px}
+.range h2{font-size:15px;margin:0 0 14px;font-weight:700}
+.bars{position:relative;display:grid;gap:9px}
+.bar{display:grid;grid-template-columns:minmax(0,9.5em) 1fr;align-items:center;gap:10px;font-size:13px}
+.bar i{display:block;height:20px;border-radius:3px;background:var(--acc);width:var(--w);opacity:.9;position:relative}
+.bar i b{position:absolute;right:6px;top:0;font:700 12px/20px inherit;color:#fff;font-style:normal}
+.bar.t i{background:var(--ink)}
+.bar.t i b{color:var(--bg)}
+.mark{position:absolute;top:-6px;bottom:-6px;left:calc(9.5em + 10px + (100% - 9.5em - 10px)*.670);border-left:2px dashed var(--hi);pointer-events:none}
+.mark span{position:absolute;top:-2px;left:6px;font-size:11px;white-space:nowrap;background:var(--hi);color:#10222d;padding:0 5px;border-radius:3px;line-height:18px}
+.note{font-size:12px;color:var(--sub);margin:12px 0 0}
+.tw{overflow-x:auto;margin:0 0 32px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px;line-height:1.6}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child th,tr:last-child td{border-bottom:0}
+thead th{font-weight:700;background:rgba(10,108,143,.08)}
+tbody th{font-weight:500;color:var(--sub);white-space:nowrap}
+.ctl{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:2}
+.ctl input{width:100%;font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+.ctl input:focus-visible,.chip:focus-visible,summary:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chip{font:inherit;font-size:14px;padding:6px 14px;border-radius:99px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+h2.g{font-size:20px;margin:36px 0 10px;font-weight:900;padding-left:12px;border-left:6px solid var(--acc)}
+details{background:var(--card);border:1px solid var(--line);border-radius:8px;margin:0 0 8px}
+summary{cursor:pointer;list-style:none;padding:14px 44px 14px 16px;font-weight:700;position:relative;line-height:1.6}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:16px;top:12px;font-size:22px;line-height:1.3;color:var(--acc);font-weight:400}
+details[open] summary::after{content:"−"}
+details[open] summary{border-bottom:1px solid var(--line)}
+.a{padding:12px 16px 16px;font-size:15px}
+.a p{margin:0 0 .7em}.a p:last-child{margin:0}
+.a ul{margin:.3em 0 .7em;padding-left:1.3em}
+.a small{color:var(--sub);display:block;margin-top:.5em;font-size:12.5px;line-height:1.6}
+.empty{display:none;padding:24px 0;color:var(--sub)}
+footer{margin:48px 0 40px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;color:var(--sub);line-height:1.7}
+footer a{color:var(--acc)}
+@media (max-width:520px){.bar{grid-template-columns:7.2em 1fr;font-size:12px}.mark{left:calc(7.2em + 10px + (100% - 7.2em - 10px)*.670)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">ネッツトヨタニューリー北大阪</header>
+<h1>bZ4X・bZ4X Touring<br>試乗会 よくあるご質問</h1>
+<p class="lead">電費、補助金、サイズ、バッテリー保証まで。試乗の前に気になりやすいことをまとめました。</p>
+
+<section class="range" aria-label="一充電走行距離">
+<h2>一充電走行距離（WLTCモード・18インチ）</h2>
+<div class="bars">
+<div class="bar"><span>bZ4X Z・FWD</span><i style="--w:100%"><b>746km</b></i></div>
+<div class="bar t"><span>Touring Z・FWD</span><i style="--w:98.4%"><b>734km</b></i></div>
+<div class="bar t"><span>Touring Z・4WD</span><i style="--w:92.5%"><b>690km</b></i></div>
+<div class="bar"><span>bZ4X Z・4WD</span><i style="--w:92.1%"><b>687km</b></i></div>
+<div class="bar"><span>bZ4X G・FWD</span><i style="--w:72.9%"><b>544km</b></i></div>
+<div class="mark"><span>大阪〜東京 約500km</span></div>
+</div>
+<p class="note">国土交通省審査値。実際の距離は気温・渋滞・エアコン・運転方法で変わります。</p>
+</section>
+
+<div class="tw"><table>
+<thead><tr><th></th><th>bZ4X</th><th>bZ4X Touring</th></tr></thead>
+<tbody>
+<tr><th>価格（税込）</th><td>G 480万円 / Z 550万円 / Z 4WD 600万円</td><td>Z 575万円 / Z 4WD 640万円</td></tr>
+<tr><th>全長×全幅×全高</th><td>4,690×1,860×1,650mm</td><td>4,830×1,860×1,675mm</td></tr>
+<tr><th>車両重量</th><td>G 1,830 / Z 1,880 / 4WD 1,990kg</td><td>1,920kg / 4WD 2,030kg</td></tr>
+<tr><th>総電力量</th><td>G 57.72kWh / Z 74.69kWh</td><td>74.69kWh</td></tr>
+<tr><th>電費（WLTC）</th><td>G 111 / Z 113 / 4WD 121 Wh/km</td><td>114 / 4WD 121 Wh/km</td></tr>
+</tbody></table></div>
+
+<div class="ctl">
+<input id="q" type="search" placeholder="キーワードで探す（例：補助金、充電、重量）" aria-label="質問を検索">
+<div class="chips" id="chips"></div>
+</div>
+<div id="list"></div>
+<p class="empty" id="empty">該当する質問がありません。キーワードを変えるか、スタッフにお尋ねください。</p>
+
+<footer>
+<p>2026年10月23日時点の公開情報にもとづきます。数値は国土交通省審査値・メーカー公表値で、グレード・タイヤサイズ・オプションで異なります。補助金・税制・保証の条件は変更されることがあり、最終的な内容は見積書および各制度の公式窓口でご確認ください。</p>
+<p>参考：<a href="https://toyota.jp/bz4x/" target="_blank" rel="noopener">トヨタ bZ4X 公式サイト</a>／<a href="https://www.cev-pc.or.jp/" target="_blank" rel="noopener">次世代自動車振興センター（CEV補助金）</a></p>
+</footer>
+</div>
+
+<script>
+var CATS={all:"すべて",range:"航続距離・電費",charge:"充電",drive:"走り・乗り換え",money:"補助金・税金",size:"サイズ・重量",care:"安全・メンテナンス",batt:"バッテリー"};
+var F=[
+["range","一充電でどれくらい走れますか？","<p>WLTCモードの国土交通省審査値は次のとおりです。</p><ul><li>bZ4X Z：FWD 746km（20インチは673km）／4WD 687km（同622km）</li><li>bZ4X G：544km</li><li>bZ4X Touring Z：FWD 734km（同667km）／4WD 690km（同627km）</li></ul><small>実際の距離は外気温、渋滞、速度、エアコン使用で変わります。</small>"],
+["range","電費（燃費）はどれくらいですか？","<p>交流電力量消費率（WLTC）は、bZ4X Gが111Wh/km、Z・FWDが113Wh/km、Z・4WDが121Wh/kmです。Touringは、Z・FWDが114Wh/km、4WDが121Wh/kmです（20インチはTouring FWD 126、4WD 134Wh/km）。</p><p>1kWhあたりに換算すると、おおむね8〜9km走る計算です。高速道路モードの数値は市街地より大きく、速度が上がるほど電費は下がります。</p>"],
+["range","電気代はいくらですか？ガソリン車と比べると？","<p>Touring Z・FWD（114Wh/km）を家庭の電気料金1kWhあたり31円と仮定すると、1kmあたり約3.5円、1,000km走って約3,500円です。</p><p>同じ距離をガソリン車（燃費15km/L、170円/Lと仮定）で走ると、1kmあたり約11円、1,000kmで約11,000円です。</p><small>あくまで仮定の計算です。電力プラン、充電場所（外部の急速充電は料金体系が異なります）、ガソリン価格で変わります。</small>"],
+["range","寒い日や暑い日は走行距離が短くなりますか？","<p>冷暖房やバッテリー温度の管理に電力を使うため、気温が低い日や高い日は、審査値より短くなるのが一般的です。bZ4Xには、急速充電の前にバッテリーを最適な温度へ整える「バッテリープレコンディショニング」が搭載されています。</p><p>試乗会では、メーター上の電費表示も合わせてご覧いただけます。</p>"],
+["range","大阪から東京のような長距離は走れますか？","<p>大阪〜東京は約500kmです。Touring Z・FWDは審査値で734kmなので、走行条件が良ければ到達できる計算です。ただし高速走行や冬場は距離が短くなるため、途中で1回、急速充電を入れる計画にしておくと安心です。</p>"],
+["charge","自宅で充電できますか？","<p>200Vの普通充電に対応しています。トヨタの家庭向け充電器（6kW）なら、約8時間の充電で航続距離にして約300km分を充電できると発表されています。夜に充電して翌朝に満充電、という使い方が基本です。</p><p>100Vでの充電も可能ですが、非常に時間がかかるため緊急用とお考えください。</p><small>充電器の設置には工事が必要です。集合住宅では管理組合の承認も要ります。</small>"],
+["charge","急速充電にはどれくらいかかりますか？","<p>150kWの急速充電器を使うと、バッテリー残量10%から80%まで最短で約28分です。実際の時間は充電器の出力、バッテリー温度、残量で変わります。</p>"],
+["charge","停電や災害のときに、家へ電気を送れますか？","<p>急速充電口は外部給電（V2H）に対応しています。V2H機器を設置すれば、車の電気を家で使えます。機器と工事の費用は別途かかります。</p>"],
+["drive","ハイブリッド車から乗り換えるメリットは？","<p>主な違いは次のとおりです。</p><ul><li>静かでなめらか：モーターだけで走るため、発進から加速まで音や振動が少なく、力強く加速します</li><li>給油が不要：自宅で夜に充電すれば、朝には満充電です</li><li>走行コスト：電気料金プランによりますが、1kmあたりの費用をガソリン代より抑えやすくなります</li><li>整備：エンジンがないため、エンジンオイルの交換が要りません</li><li>災害時：外部給電（V2H）で、家に電気を送れます</li></ul><small>一方で、遠出では充電の計画が必要です。自宅に充電環境がない場合は、外部の充電器が中心になります。ご自身の使い方に合うか、試乗でご確認ください。</small>"],
+["drive","回生ブレーキとは何ですか？","<p>減速するときに、モーターが発電機として働き、そのエネルギーを電気としてバッテリーに戻す仕組みです。ブレーキで熱として捨てていたエネルギーを再利用するため、電費の向上につながります。</p><p>bZ4Xでは、ステアリングのパドルで、回生の強さを4段階に切り替えられます。レベル1はコースティング（惰性走行）に近く、レベル4が最も強く減速します。</p>"],
+["drive","ワンペダルのように運転できますか？","<p>回生を強めに設定すると、アクセルペダルを戻すだけで十分に減速できるため、ペダルの踏み替えが減り、ワンペダルに近い感覚で運転できます。</p><p>ただし、最も強い設定でも、回生ブレーキだけで完全に停止まではしません。停止する最後は、ブレーキペダルを踏んでください。</p>"],
+["drive","FWDと4WDの違いは何ですか？","<p>Touringの場合、FWDのシステム最高出力は165kW（224PS）、4WDは前後にモーターを持つ280kW（380PS）で、0-100km/h加速は4.6秒です。4WDにはX-MODEも備わり、悪路や雪道での走行安定性を高めています。一方で、航続距離と電費はFWDのほうが有利です。</p>"],
+["money","国の補助金はいくらですか？","<p>国のCEV補助金（クリーンエネルギー自動車導入促進補助金）は、2026年4月以降に登録する普通車のBEVで上限130万円です。bZ4X、bZ4X Touringとも130万円とご案内しています。</p><ul><li>対象は新車の新規登録で、自家用の車両です</li><li>購入代金の全額支払い後、登録から一定期間内の申請が必要です</li><li>原則4年間の保有義務があり、期間内に手放すと返納が必要になる場合があります</li><li>予算がなくなり次第、受付は終了します</li></ul><small>最新の金額と条件は、次世代自動車振興センターの公式サイトでご確認ください。</small>"],
+["money","大阪府の補助金はありますか？","<p>2026年10月時点で、大阪府による個人向けのEV購入補助は確認できていません。府の支援は、中小事業者向けが中心です。</p><p>市町村の独自補助は、実施の有無と受付状況が自治体ごとに異なります。予算に達すると年度の途中でも終了し、豊中市のように2026年度分の受付が終わった例もあります。お住まいの市町村へ、最新の状況をご確認ください。</p><small>国のCEV補助金は、大阪府内にお住まいの個人でも条件を満たせば利用できます。</small>"],
+["money","補助金を使うと、実質いくらになりますか？","<p>車両価格から国の補助金130万円を引いた目安です（諸費用・オプション・自治体補助は含みません）。</p><ul><li>bZ4X G：350万円</li><li>bZ4X Z：420万円／Z 4WD：470万円</li><li>Touring Z：445万円／Z 4WD：510万円</li></ul><small>補助金は購入後の申請で、交付は後日です。お支払い時点では車両価格の全額が必要になります。</small>"],
+["money","自動車税はいくらですか？","<p>電気自動車は排気量がないため、自動車税は最も低い区分が適用され、年額25,000円です。新車を取得した翌年度は、グリーン化特例でおおむね75%軽減されます（2026年4月〜2028年3月の取得分）。</p><p>購入時の自動車重量税は、電気自動車は免税です（2026年5月〜2028年4月の新車登録分）。環境性能割は、2026年3月末で廃止されました。</p><small>税制は年度ごとに見直されます。適用される内容は、お見積書でご確認ください。</small>"],
+["size","大きさはどれくらいですか？","<ul><li>bZ4X：全長4,690×全幅1,860×全高1,650mm、ホイールベース2,850mm</li><li>bZ4X Touring：全長4,830×全幅1,860×全高1,675mm、ホイールベース2,850mm</li></ul><p>Touringは、bZ4Xより全長が140mm、全高が25mm大きくなっています。最小回転半径はどちらも5.6m、最低地上高は180mmです。</p>"],
+["size","車の重さはどれくらいですか？","<ul><li>bZ4X：G 1,830kg／Z 1,880kg／Z 4WD 1,990kg</li><li>bZ4X Touring：Z 1,920kg／Z 4WD 2,030kg</li></ul><p>大容量のバッテリーを搭載するため、同じサイズのガソリン車より重めです。20インチタイヤ装着車は、さらに20kg増えます。</p><small>機械式の立体駐車場は、車両重量・全幅・全高の制限が施設ごとに異なります。ご利用の駐車場を事前にご確認ください。</small>"],
+["size","Touringの荷室はどれくらい広いですか？","<p>荷室容量は619Lで、bZ4Xの約1.4倍です。6:4分割の後席を倒すと、荷室長は最大1,850mmになります。9.5インチのゴルフバッグ4個を積める広さです。</p>"],
+["care","電気自動車は水に弱いのですか？","<p>いいえ。バッテリーや高電圧の部品は、防水・防塵の構造になっています。雨の日の走行や洗車、充電にも問題ありません。</p><p>ただし、冠水した道路への進入は、電気自動車に限らず危険です。水深のある場所は避けてください。</p>"],
+["care","事故のとき、感電の危険はありませんか？","<p>高電圧の部品は絶縁され、配線も専用の色で識別できるように保護されています。衝突などの強い衝撃を感知すると、高電圧の回路を自動で遮断する仕組みも備えています。</p><small>事故のあとは、車両が損傷していても、ご自身で配線や部品に触れないでください。スタッフや救助隊の指示に従ってください。</small>"],
+["care","車検費用は安くなりますか？","<p>初回の車検では、自動車重量税が免税になります（2028年4月30日までの新車登録分）。自賠責保険料や検査の手数料は、ガソリン車と同じです。整備の面では、エンジンオイルなどの交換項目がないぶん、費用を抑えやすい傾向があります。</p><small>2回目以降の重量税は、その時点の制度でご確認ください。</small>"],
+["care","エンジンオイルの交換は必要ですか？","<p>エンジンがないため、エンジンオイルの交換は不要です。一方で、ブレーキ、タイヤ、足まわり、冷却水、ブレーキフルード、エアコンフィルターなどは、ガソリン車と同様に定期的な点検・交換が必要です。</p>"],
+["care","タイヤは減りやすいですか？","<p>車両が重く、モーターのトルクも発進の直後から立ち上がるため、同じサイズのガソリン車より摩耗が早くなる傾向があります。急加速を控え、空気圧を定期的に点検すると、タイヤの寿命にも電費にも有利です。</p>"],
+["care","自動車保険は高くなりますか？","<p>車両保険の保険料が、ガソリン車より高くなる場合があります。車両の価格が高いことや、修理費が高額になりやすいことが主な理由です。対人・対物など、車両以外の補償は、大きく変わらないのが一般的です。</p><small>保険料は、車の型式、等級、補償内容などで決まります。お見積りでご確認ください。</small>"],
+["care","故障した場合、修理費用は高いですか？","<p>部品によって異なります。駆動用バッテリーなど高電圧の部品は高額になりやすい一方、保証の期間内（10年20万kmまで）の機能故障は、無償で修理・交換します。エンジンやトランスミッションがないため、その関連の修理は発生しません。</p><small>ブレーキやタイヤなどの消耗品の費用は、ガソリン車と大きくは変わりません。事故による修理は、ご加入の保険の補償内容によります。</small>"],
+["batt","バッテリーの保証は何年ですか？","<p>bZ4X・bZ4X Touringの駆動用バッテリーには、10年20万km（容量70%）の保証があります。</p><ul><li>機能保証：製造上の不具合（充電できない、走行できない等）は、10年20万kmまで無償で修理・交換</li><li>容量保証：新車時と比べて充電量が70%を下回った場合、10年20万kmまで無償で修理・交換</li></ul><p>内訳は、メーカー保証が8年16万km、BEVバッテリーサポートプラスが2年4万kmです。</p><small>bZ4Xは電気で走るバッテリー式EV（BEV）で、燃料電池車（FCEV）ではありません。ここでいう保証の対象は、床下に搭載された駆動用バッテリーです。</small>"],
+["batt","バッテリーは何年くらいもちますか？","<p>寿命は使い方や使用環境で変わるため、一概にはお答えできません。トヨタは、10年後の容量維持率90%を開発目標にしていますが、これは約束ではありません。お約束しているのは、全車に対する「10年20万km／容量70%」の保証です。</p>"],
+["batt","バッテリー交換は高額ですか？","<p>保証の期間内（10年20万km）に、不具合が起きた場合や、容量が新車時の70%を下回った場合の修理・交換は、無償です。</p><p>保証の対象外になった場合の費用は、状態によって異なります。駆動用バッテリーは高額な部品ですが、まず診断で状態を確認し、修理で対応できるかを判断します。必要が生じた際に、お見積りします。</p>"],
+["batt","毎日充電しても大丈夫ですか？","<p>問題ありません。日常は、自宅の普通充電で、必要なときや毎日充電する使い方が一般的です。</p><p>バッテリーを長持ちさせるには、真夏の炎天下に長時間放置しないことや、急速充電を多用しすぎないことが目安です。</p>"]
+];
+var cat="all",lst=document.getElementById("list"),chips=document.getElementById("chips"),q=document.getElementById("q"),emp=document.getElementById("empty");
+Object.keys(CATS).forEach(function(k){var b=document.createElement("button");b.className="chip";b.type="button";b.textContent=CATS[k];b.setAttribute("aria-pressed",k==="all");b.onclick=function(){cat=k;[].forEach.call(chips.children,function(c){c.setAttribute("aria-pressed",c===b)});render()};chips.appendChild(b)});
+function render(){var t=q.value.trim().toLowerCase(),n=0,last="";lst.innerHTML="";
+F.forEach(function(f){if(cat!=="all"&&f[0]!==cat)return;if(t&&(f[1]+f[2]).toLowerCase().indexOf(t)<0)return;n++;
+if(f[0]!==last){last=f[0];var h=document.createElement("h2");h.className="g";h.textContent=CATS[f[0]];lst.appendChild(h)}
+var d=document.createElement("details");d.innerHTML="<summary>"+f[1]+"</summary><div class=\"a\">"+f[2]+"</div>";if(t)d.open=true;lst.appendChild(d)});
+emp.style.display=n?"none":"block"}
+q.addEventListener("input",render);render();
+</script>
+</body>
+</html>
